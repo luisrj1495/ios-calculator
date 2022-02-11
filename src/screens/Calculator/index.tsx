@@ -65,7 +65,7 @@ export const Calculator = () => {
       </View>
 
       <View style={styles.row}>
-        <Fab style={{flex: 4}} title="0" onPress={() => addNumber('0')} />
+        <Fab style={{flex: 3}} title="0" onPress={() => addNumber('0')} />
         <Fab title="." onPress={() => addNumber('.')} />
         <Fab title="=" color="orange" onPress={() => calculate()} />
       </View>
