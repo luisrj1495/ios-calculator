@@ -39,7 +39,7 @@ export const Calculator = () => {
       <View style={styles.row}>
         <Fab title="C" color="gray" onPress={() => clean()} />
         <Fab title="+/-" color="gray" onPress={() => changeSymbol()} />
-        <Fab title="del" color="gray" onPress={() => deleteNumber()} />
+        <Fab title="Del" color="gray" onPress={() => deleteNumber()} />
         <Fab title="÷" color="orange" onPress={() => setOperation('/')} />
       </View>
 
